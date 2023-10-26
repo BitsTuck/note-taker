@@ -9,14 +9,14 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(express.static('public'));
 
-seeNotes
-.addEventListener('submit', (e) => {
-    e.preventDefault();
-    
+const goNotes = document.getElementById('notes-btn');
+
+const seeNotes = () =>
     app.get('/notes', (req, res) => {
         res.sendFile(path.join(__dirname, 'notes.html'));
     });
-})
+
+goNotes.addEventListener ('click', seeNotes);
 
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html' ));
