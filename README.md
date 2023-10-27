@@ -25,7 +25,7 @@ It is taking some time for my brain to understand that we are launching the inde
 
 ## Credits
 
-Tutor Dru Sanchez provided guidance.
+Tutor Dru Sanchez provided guidance, as did TA Diem Ly in office hours.
 
 
 
