@@ -6,6 +6,8 @@ Deployed 27 October 2023
 
 <img width="1471" alt="Screenshot 2023-10-27 at 08 53 10" src="https://github.com/BitsTuck/note-taker/assets/144712161/12761bec-7ced-430f-9f54-d5893561f72d">
 
+https://uta-note-taker-29970e8af26e.herokuapp.com/
+
 ## Description
 
 The Challenge for Module #11 asked us to modify back-end code to make provided front-end code functional. In order to be successful, the index page needed to link to a notes page, that would accept and store note data.
